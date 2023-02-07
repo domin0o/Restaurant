@@ -30,7 +30,7 @@ namespace Restaurant
         {
             MenuItem[] menuItems = new MenuItem[5];
             string guacamolePrice;
-            for(int i =0; i<5; i++)
+            for(int i=0; i<5; i++)
             {
                 menuItems[i] = new MenuItem();
                 if (i >= 3)
