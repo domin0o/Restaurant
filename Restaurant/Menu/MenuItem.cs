@@ -8,7 +8,7 @@ namespace Restaurant
 {
     class MenuItem
     {
-        public Random Randomizer = new Random();
+        public static Random Randomizer = new Random();
         // Mięso
         public string[] Proteins = { "Wołowina", "Salami", "Indyk", "Szynka", "Pastrami", "Tofu" };
         // Dodatki
